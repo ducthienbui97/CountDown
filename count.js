@@ -1,4 +1,6 @@
-
+/***
+TODO: allow user to set the time need to count to.
+***/
 function init() {
 	var countdown = new Date();
 	var current = new Date();
