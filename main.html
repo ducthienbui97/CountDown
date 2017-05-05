@@ -3,7 +3,7 @@
         <title>Counting Down</title>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <link rel="stylesheet" type="text/css" href="lib/flipclock.css" />
-
+        <link rel="stylesheet" type="text/css" href="style.css">
         <script type="text/javascript" src="lib/jquery-3.2.1.min.js" ></script>
         <script type="text/javascript" src="lib/flipclock.min.js"></script>
         <script type="text/javascript" src="count.js"></script>
@@ -12,6 +12,14 @@
     <body>
         <br>
         <br>
-        <div class="the-clock"></div>
+            <div class="the-clock"></div>
+        <br>
+        <div id="counting-to">
+            Counting to  
+            <input type="number" min=0 max=23 id="hour"> :
+            <input type="number" min=0 max=59 id="minute"> :
+            <input type="number" min=0 max=59 id="second"> 
+            <button type="button" id="setTime">set</button>
+        <div>
     </body>
 </html>

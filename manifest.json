@@ -2,7 +2,7 @@
   "name": "Count Down",
   "description": "Count down to a specific moment of the day",
   "manifest_version": 2,
-  "version": "0.1",
+  "version": "0.2",
   "app": {
     "background": {
       "scripts": ["main.js"]
@@ -15,6 +15,7 @@
   },
   "permissions": [
     "geolocation",
-    "background"
+    "background",
+    "storage" 
   ]
 }

@@ -1,7 +1,7 @@
 # CountDown
 Chrome app count down to the end of day
 ## Idea
-I just want to have a count down clock to a specific time of day, currently it is set to be 0:0:0 but in future version, it will be easy to change the time you want to count to.
+I just want to have a count down clock to a specific time of day (e.g. count down to leaving hour or count down to sleep time)
 ## Sample
 ![Sample image](img/Sample.PNG?raw=true)
 ## Credit

@@ -1,0 +1,25 @@
+body{
+	font-size: 100%;
+}
+button {
+	font-size: 100%;
+    background-color: #255BD9;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+input{
+	font-size: 100%;
+    color: #255BD9;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+div {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
